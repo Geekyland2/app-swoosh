@@ -14,6 +14,7 @@ class WelcomeVC: UIViewController {
     @IBOutlet weak var bgimg: UIImageView!
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,7 +31,8 @@ class WelcomeVC: UIViewController {
         
     }
     
-
+    
+    
     
     @IBAction func unwindForSkill(unwindSegue: UIStoryboardSegue){
         
